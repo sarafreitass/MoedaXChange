@@ -1,0 +1,4 @@
+#Wed Jun 21 16:10:54 BRT 2023
+base.0=C\:\\Users\\Sara Freitas\\faculdade\\cotacoes_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
