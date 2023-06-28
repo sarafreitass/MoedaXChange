@@ -3,7 +3,6 @@ import '../AboutUs.dart';
 import '../buscar.dart';
 import '../editarDados.dart';
 import '../favoritos.dart';
-import '../historico.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -18,7 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _indiceAtual = 0;
   final List<Widget> _telas = [
     ListaCotacoesFavoritas(),
-    ListaCotacoesHistorico(),
+    //ListaCotacoesHistorico(),
     BuscarCotacao(),
     editarDados(),
     AboutUs(),
@@ -44,11 +43,11 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Favoritos',
             backgroundColor: Color.fromARGB(255, 90, 180, 100),
           ),
-          BottomNavigationBarItem(
+          /*BottomNavigationBarItem(
             icon: Icon(Icons.punch_clock),
             label: 'Histórico',
             backgroundColor: Color.fromARGB(255, 100, 190, 110),
-          ),
+          ),*/
           BottomNavigationBarItem(
             icon: Icon(Icons.search),
             label: 'Buscar',
